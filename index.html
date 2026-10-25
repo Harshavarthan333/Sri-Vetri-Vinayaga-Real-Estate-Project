@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Sri Vetri Vinayagar Real Estate – NithesKummar | Premium Coconut Farmland, Kinathukadavu</title>
+<meta name="description" content="Premium, well-maintained coconut farmland near Kinathukadavu, Coimbatore. Water facilities, one year free maintenance, free EB benefit and verified legal documentation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ==========================================================================
+   Sri Vetri Vinayaga Real Estate – NithesKumar
+   Design tokens taken from the Figma Make source
+   ========================================================================== */
+:root{
+  --forest:#002517;
+  --forest-2:#123b2a;
+  --gold:#735b26;
+  --gold-light:#ffdea2;
+  --cream:#fbf9f2;
+  --surface:#f5f4ed;
+  --surface-2:#eae8e1;
+  --surface-3:#f0eee7;
+  --ink:#1b1c18;
+  --muted:#414844;
+  --line:#e4e2dc;
+  --mint:#c6edb9;
+  --white:#ffffff;
+  --radius:8px;
+  --shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+  --shadow-lg:0 20px 40px -12px rgba(0,37,23,.25);
+  --serif:'Playfair Display',Georgia,'Times New Roman',serif;
+  --sans:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --wrap:1280px;
+  --pad:64px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--cream);line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+h1,h2,h3,h4,p{margin:0}
+.ic{width:22px;height:22px;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:4px}
+
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
+.section{padding:96px 0;position:relative}
+.bg-cream{background:var(--cream)}
+.bg-surface{background:var(--surface)}
+.bg-surface2{background:var(--surface-3)}
+.bg-forest{background:var(--forest);color:#fbf9f2}
+
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.eyebrow::before{content:"";width:24px;height:2px;background:var(--gold)}
+.eyebrow.light{color:var(--gold-light)}
+.eyebrow.light::before{background:var(--gold-light)}
+.h2{font-family:var(--serif);font-weight:500;font-size:44px;line-height:1.15;letter-spacing:-.01em;color:var(--forest)}
+.h2 em{font-style:italic;font-weight:400}
+.bg-forest .h2{color:#fbf9f2}
+.lead{font-size:17px;line-height:1.7;color:var(--muted);max-width:640px}
+.bg-forest .lead{color:rgba(251,249,242,.8)}
+.section-head{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center;max-width:720px;margin:0 auto 56px}
+.section-head .eyebrow{justify-content:center}
+.section-head .eyebrow::before{display:none}
+
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 28px;border-radius:var(--radius);font-weight:600;font-size:15px;border:1px solid transparent;transition:transform .25s ease,box-shadow .25s ease,background .25s ease,color .25s ease;white-space:nowrap}
+.btn .ic{width:18px;height:18px}
+.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.btn:active{transform:translateY(0)}
+.btn-gold{background:var(--gold);color:#fff}
+.btn-gold:hover{background:#86692d}
+.btn-glass{background:rgba(251,249,242,.1);color:#fbf9f2;border-color:rgba(251,249,242,.25);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.btn-glass:hover{background:rgba(251,249,242,.2)}
+.btn-forest{background:var(--forest);color:#fbf9f2}
+.btn-forest:hover{background:var(--forest-2)}
+.btn-line{background:transparent;color:var(--forest);border-color:var(--forest)}
+.btn-line:hover{background:var(--forest);color:#fbf9f2}
+.btn[disabled]{opacity:.65;cursor:not-allowed;transform:none;box-shadow:none}
+.btn-wa{background:#25d366;color:#fff}
+.btn-wa:hover{background:#1ebe5a}
+.btn-block{width:100%;justify-content:center}
+
+/* Reveal on scroll */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+}
+
+/* Image placeholders (replace with your photos: set background-image on .ph) */
+.ph{position:relative;overflow:hidden;background:
+  radial-gradient(ellipse at 30% 25%,rgba(198,237,185,.35),transparent 55%),
+  radial-gradient(ellipse at 80% 90%,rgba(255,222,162,.25),transparent 50%),
+  linear-gradient(160deg,#1f5a3f 0%,#123b2a 45%,#002517 100%);background-size:cover;background-position:center}
+.ph::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.04) 0 2px,transparent 2px 22px);pointer-events:none}
+.ph-label{position:absolute;left:14px;bottom:14px;z-index:2;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(251,249,242,.75);font-weight:600}
+.ph-soil{background:
+  radial-gradient(ellipse at 20% 30%,rgba(255,222,162,.18),transparent 50%),
+  linear-gradient(180deg,#5b3d26 0%,#3a2817 60%,#241a0f 100%)}
+.ph-water{background:
+  radial-gradient(ellipse at 70% 30%,rgba(198,237,185,.45),transparent 45%),
+  linear-gradient(180deg,#2f6f74 0%,#17464b 55%,#0c2b2e 100%)}
+.ph-road{background:
+  linear-gradient(90deg,transparent 46%,rgba(251,249,242,.22) 46% 54%,transparent 54%),
+  linear-gradient(180deg,#5d7d64 0%,#2c4f3a 60%,#1a3427 100%)}
+.ph-hero{background:
+  radial-gradient(ellipse at 75% 20%,rgba(255,222,162,.28),transparent 45%),
+  radial-gradient(ellipse at 15% 85%,rgba(198,237,185,.22),transparent 50%),
+  linear-gradient(135deg,#1f6a48 0%,#0f4a33 40%,#00291a 100%)}
+
+/* ---------- Header ---------- */
+.site-header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(251,249,242,.85);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid rgba(228,226,220,.7);transition:box-shadow .3s ease,background .3s ease}
+.site-header.scrolled{box-shadow:0 6px 24px -10px rgba(0,37,23,.25)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:80px;max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
+.brand{display:flex;align-items:center;gap:12px;color:var(--forest)}
+.brand-mark{width:40px;height:40px;border-radius:50%;background:var(--forest);color:var(--gold-light);display:grid;place-items:center}
+.brand-mark .ic{width:20px;height:20px}
+.brand-text{display:flex;flex-direction:column;line-height:1.1}
+.brand-text strong{font-family:var(--serif);font-size:17px;font-weight:600;letter-spacing:.02em}
+.brand-text span{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-top:3px}
+.nav-links{display:flex;align-items:center;gap:26px;list-style:none;margin:0;padding:0}
+.nav-links a{font-size:14px;font-weight:500;color:var(--muted);position:relative;padding:6px 0;transition:color .2s}
+.nav-links a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .3s ease}
+.nav-links a:hover,.nav-links a.active{color:var(--forest)}
+.nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1)}
+.nav-cta{padding:12px 20px;font-size:14px;background:var(--gold);color:#fff;border-radius:var(--radius);font-weight:600;transition:background .2s}
+.nav-cta:hover{background:#86692d}
+.menu-btn{display:none;background:none;border:0;color:var(--forest);padding:8px;margin-right:-8px}
+.mobile-menu{display:none}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;color:#fbf9f2;overflow:hidden;padding:140px 0 48px}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg .ph{position:absolute;inset:0}
+.hero-shade{position:absolute;inset:0;z-index:1;background:
+  linear-gradient(90deg,rgba(0,37,23,.92) 0%,rgba(0,37,23,.55) 50%,rgba(0,37,23,0) 100%),
+  linear-gradient(0deg,#002517 0%,rgba(0,37,23,.45) 45%,rgba(0,37,23,.75) 100%)}
+.hero-inner{position:relative;z-index:2;display:flex;flex-direction:column;justify-content:space-between;min-height:calc(100vh - 190px);gap:40px}
+.hero-copy{display:flex;flex-direction:column;gap:22px;max-width:768px;padding-top:24px}
+.pill{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;padding:7px 14px;border-radius:999px;background:rgba(255,222,162,.18);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-light)}
+.pill::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold-light)}
+.hero h1{font-family:var(--serif);font-weight:600;font-size:64px;line-height:1.08;letter-spacing:-.01em}
+.hero h1 em{display:block;font-style:italic;font-weight:400;color:var(--gold-light)}
+.hero .sub{font-size:18px;line-height:1.65;color:rgba(251,249,242,.9);max-width:640px}
+.cta-row{display:flex;flex-wrap:wrap;gap:16px;align-items:center;padding-top:8px}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding-top:40px;max-width:900px}
+.pillar{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:var(--radius);background:rgba(251,249,242,.06);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);transition:background .3s}
+.pillar:hover{background:rgba(251,249,242,.12)}
+.pillar .ic{color:var(--gold-light);width:24px;height:24px}
+.pillar strong{display:block;font-size:15px;font-weight:600}
+.pillar span{display:block;font-size:12px;color:rgba(251,249,242,.7);font-weight:500;margin-top:2px}
+.hero-foot{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:16px;border-top:1px solid rgba(251,249,242,.12)}
+.hero-foot small{font-size:11px;font-weight:700;letter-spacing:.14em;color:rgba(251,249,242,.75);text-transform:uppercase}
+.scroll-link{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.14em;color:#fbf9f2;text-transform:uppercase}
+.scroll-link .ic{width:16px;height:16px;animation:bob 2.2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+
+/* ---------- About ---------- */
+.about-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:40px;align-items:center}
+.about-copy{grid-column:7/span 6;display:flex;flex-direction:column;gap:18px;order:2}
+.about-copy h2{margin-top:6px}
+.about-copy h2 em{display:block}
+.stat-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+.stat{background:var(--surface);border-radius:var(--radius);padding:20px;transition:transform .3s,box-shadow .3s}
+.stat:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.stat b{display:block;font-family:var(--serif);font-size:36px;line-height:1.1;color:var(--forest);font-weight:700}
+.stat span{display:block;font-size:14px;color:var(--muted);margin-top:6px;line-height:1.45}
+.about-visual{grid-column:1/span 6;order:1;position:relative;padding:0 0 60px 0}
+.collage-main{height:420px;border-radius:var(--radius);box-shadow:var(--shadow-lg);position:relative;overflow:hidden}
+.collage-card{position:absolute;right:-6%;bottom:0;width:48%;background:var(--white);padding:10px;border-radius:var(--radius);box-shadow:var(--shadow-lg)}
+.collage-card .ph{height:240px;border-radius:4px}
+.collage-badge{position:absolute;left:16px;bottom:16px;z-index:3;display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:var(--radius);background:rgba(0,37,23,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#fbf9f2;font-size:13px;font-weight:600}
+.collage-badge .ic{width:18px;height:18px;color:var(--gold-light)}
+.collage-note{position:absolute;left:-2%;top:28px;z-index:3;max-width:260px;background:var(--surface-2);padding:16px 18px;border-radius:var(--radius);box-shadow:var(--shadow)}
+.collage-note small{display:block;font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--gold);text-transform:uppercase;margin-bottom:6px}
+.collage-note p{font-size:14px;color:var(--ink);line-height:1.5}
+.about-body{font-size:16px;line-height:1.75;color:var(--muted)}
+.about-body p+p{margin-top:14px}
+.about-cta{margin-top:8px;align-self:flex-start}
+
+/* ---------- Infrastructure / Benefits (amenities anchor) ---------- */
+.benefit-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:24px}
+.benefit{grid-column:span 2;background:var(--cream);border-radius:var(--radius);padding:32px;display:flex;flex-direction:column;gap:22px;box-shadow:var(--shadow);transition:transform .35s ease,box-shadow .35s ease;position:relative;overflow:hidden}
+.benefit:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg)}
+.benefit:nth-child(4),.benefit:nth-child(5){grid-column:span 3}
+.benefit:nth-child(4){grid-column:2/span 3}
+.benefit:nth-child(5){grid-column:5/span 2}
+.benefit .icon{width:52px;height:52px;border-radius:var(--radius);background:rgba(18,59,42,.1);color:var(--forest);display:grid;place-items:center;transition:background .3s,color .3s}
+.benefit:hover .icon{background:var(--forest);color:var(--gold-light)}
+.benefit .tag{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.benefit h3{font-family:var(--serif);font-weight:600;font-size:24px;line-height:1.25;color:var(--forest)}
+.benefit p{font-size:15px;line-height:1.65;color:var(--muted)}
+.benefit .meta{margin-top:auto;padding-top:16px;border-top:1px solid var(--line);font-size:14px;font-weight:600;color:var(--forest);display:flex;align-items:center;gap:8px}
+.benefit .meta .ic{width:18px;height:18px;color:var(--gold)}
+
+/* ---------- Farmlands ---------- */
+.inventory-bar{display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:center;margin-bottom:32px}
+.inventory-count{font-size:14px;color:var(--muted)}
+.inventory-count b{font-family:var(--serif);font-size:28px;color:var(--forest);font-weight:600;margin-right:4px}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.filter-group{display:flex;flex-wrap:wrap;gap:6px;padding:5px;background:var(--surface-2);border-radius:999px}
+.chip{border:0;background:transparent;padding:9px 16px;border-radius:999px;font-size:13px;font-weight:600;color:var(--muted);transition:background .2s,color .2s}
+.chip:hover{color:var(--forest)}
+.chip[aria-pressed="true"]{background:var(--forest);color:#fbf9f2}
+.plot-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.plot-card{background:var(--cream);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform .35s ease,box-shadow .35s ease}
+.plot-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg)}
+.plot-card[hidden]{display:none}
+.plot-media{position:relative;height:200px}
+.plot-media .ph{position:absolute;inset:0}
+.plot-no{position:absolute;left:14px;top:14px;z-index:2;background:rgba(0,37,23,.85);color:#fbf9f2;font-size:12px;font-weight:700;padding:6px 10px;border-radius:6px;letter-spacing:.04em}
+.status{position:absolute;right:14px;top:14px;z-index:2;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;border-radius:999px;background:var(--mint);color:var(--forest)}
+.status.fast{background:var(--gold-light);color:#261900}
+.status.reserved{background:var(--surface-2);color:var(--muted)}
+.plot-body{padding:24px;display:flex;flex-direction:column;gap:14px;flex:1}
+.plot-body h3{font-family:var(--serif);font-size:24px;font-weight:600;color:var(--forest)}
+.plot-body .desc{font-size:14px;line-height:1.6;color:var(--muted);min-height:44px}
+.specs{display:grid;grid-template-columns:1fr 1fr;gap:10px 16px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.specs div{display:flex;flex-direction:column;gap:2px}
+.specs dt{font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.specs dd{margin:0;font-size:14px;font-weight:600;color:var(--ink)}
+.price-row{display:flex;justify-content:space-between;align-items:flex-end;margin-top:auto;gap:12px}
+.price-row small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.price-row b{font-family:var(--serif);font-size:22px;color:var(--forest);font-weight:600}
+.link-btn{border:0;background:none;color:var(--forest);font-weight:700;font-size:14px;display:inline-flex;align-items:center;gap:6px;padding:8px 0;border-bottom:2px solid var(--gold)}
+.link-btn:hover{color:var(--gold)}
+.link-btn .ic{width:16px;height:16px}
+.plot-empty{grid-column:1/-1;text-align:center;padding:40px;color:var(--muted);background:var(--cream);border-radius:var(--radius)}
+
+/* ---------- Masterplan ---------- */
+.mp-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:stretch}
+.mp-map{grid-column:span 8;background:var(--cream);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px;display:flex;flex-direction:column;gap:14px}
+.mp-map-head{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;font-weight:600;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend i{width:14px;height:14px;border-radius:3px;display:inline-block}
+.lg-av{background:var(--mint);border:1px solid var(--forest-2)}
+.lg-rs{background:var(--gold-light);border:1px solid var(--gold)}
+.lg-sd{background:#d7d4c9;border:1px solid #a5aaa3}
+.map-wrap{position:relative;border-radius:6px;background:var(--surface-2);overflow:hidden}
+#plotMap{width:100%;height:auto;display:block}
+#plotMap .plot{cursor:pointer;transition:opacity .2s}
+#plotMap .plot rect{transition:fill .2s,stroke-width .2s}
+#plotMap .plot:hover rect{filter:brightness(.96);stroke-width:2.5}
+#plotMap .plot:focus{outline:none}
+#plotMap .plot:focus-visible rect{stroke:var(--gold);stroke-width:3}
+#plotMap .p-av rect{fill:var(--mint);stroke:var(--forest-2)}
+#plotMap .p-rs rect{fill:var(--gold-light);stroke:var(--gold)}
+#plotMap .p-sd rect{fill:#d7d4c9;stroke:#a5aaa3}
+#plotMap .p-sel rect{stroke:var(--forest);stroke-width:3.5}
+#plotMap text{font-family:var(--sans);pointer-events:none}
+.map-foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.map-foot b{color:var(--forest)}
+.inspector{grid-column:span 4;background:var(--forest);color:#fbf9f2;border-radius:var(--radius);padding:32px;box-shadow:var(--shadow-lg);display:flex;flex-direction:column;gap:18px;position:relative;overflow:hidden}
+.inspector::before{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(255,222,162,.18),transparent 70%)}
+.insp-top{display:flex;justify-content:space-between;align-items:center;position:relative}
+.insp-sel{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-light)}
+.insp-status{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;border-radius:999px;background:var(--mint);color:var(--forest)}
+.insp-status.reserved{background:var(--gold-light);color:#261900}
+.insp-status.sold{background:#d7d4c9;color:var(--muted)}
+.insp-title{font-family:var(--serif);font-size:30px;font-weight:600;line-height:1.15;position:relative}
+.insp-desc{font-size:14px;line-height:1.6;color:rgba(251,249,242,.8);position:relative}
+.insp-specs{display:grid;grid-template-columns:1fr 1fr;gap:14px 12px;padding:16px 0;border-top:1px solid rgba(251,249,242,.12);border-bottom:1px solid rgba(251,249,242,.12);position:relative}
+.insp-specs div{display:flex;flex-direction:column;gap:3px}
+.insp-specs dt{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-light)}
+.insp-specs dd{margin:0;font-size:14px;font-weight:600}
+.insp-price{position:relative}
+.insp-price small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(251,249,242,.7)}
+.insp-price b{font-family:var(--serif);font-size:30px;font-weight:600;color:var(--gold-light)}
+.insp-price p{font-size:12px;color:rgba(251,249,242,.7);margin-top:4px}
+.insp-actions{display:flex;flex-direction:column;gap:10px;margin-top:auto;position:relative}
+.insp-actions .btn{justify-content:center}
+.insp-note{font-size:12px;color:rgba(251,249,242,.6);position:relative}
+
+/* ---------- Ownership ---------- */
+.own-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:64px;align-items:center}
+.own-copy{grid-column:1/span 7;display:flex;flex-direction:column;gap:20px}
+.own-copy .lead{max-width:none}
+.steps{display:flex;flex-direction:column;gap:22px;margin-top:8px}
+.step{display:grid;grid-template-columns:56px 1fr;gap:18px;align-items:start;padding:20px;border-radius:var(--radius);background:var(--cream);box-shadow:var(--shadow);transition:transform .3s}
+.step:hover{transform:translateX(6px)}
+.step-num{width:56px;height:56px;border-radius:50%;background:var(--forest);color:var(--gold-light);display:grid;place-items:center;font-family:var(--serif);font-size:22px;font-weight:600}
+.step h3{font-family:var(--serif);font-size:21px;font-weight:600;color:var(--forest);margin-bottom:6px}
+.step p{font-size:15px;line-height:1.65;color:var(--muted)}
+.own-visual{grid-column:8/span 5;display:flex;flex-direction:column;gap:24px}
+.own-visual .ph{height:380px;border-radius:var(--radius);box-shadow:var(--shadow-lg)}
+.quote{background:var(--cream);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);position:relative}
+.quote::before{content:"\201C";position:absolute;right:20px;top:-14px;font-family:var(--serif);font-size:80px;line-height:1;color:var(--gold-light)}
+.quote blockquote{margin:0;font-family:var(--serif);font-style:italic;font-size:19px;line-height:1.5;color:var(--forest);position:relative}
+.quote cite{display:block;margin-top:14px;font-style:normal;font-size:13px;font-weight:600;color:var(--muted)}
+.quote .eyebrow{margin-bottom:12px;font-size:11px}
+
+/* ---------- Gallery ---------- */
+.gallery-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:40px}
+.gallery-head .h2{max-width:560px}
+.gallery-grid{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:260px;gap:16px}
+.g-item{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);cursor:zoom-in;transition:transform .4s ease,box-shadow .4s ease,opacity .4s ease}
+.g-item:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.g-item .ph{position:absolute;inset:0;transition:transform .8s ease}
+.g-item:hover .ph{transform:scale(1.05)}
+.g-item .cap{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:18px 20px;background:linear-gradient(0deg,rgba(0,37,23,.85),transparent);color:#fbf9f2}
+.g-item .cap small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-light)}
+.g-item .cap b{font-family:var(--serif);font-weight:500;font-size:19px}
+.g-item.span-7{grid-column:span 7}
+.g-item.span-5{grid-column:span 5}
+.g-item.span-4{grid-column:span 4}
+.g-item.span-8{grid-column:span 8}
+.g-item.span-6{grid-column:span 6}
+.g-item[hidden]{display:none}
+
+/* ---------- Location ---------- */
+.loc-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:56px;align-items:center}
+.loc-copy{grid-column:1/span 6;display:flex;flex-direction:column;gap:20px}
+.dist-list{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column}
+.dist-list li{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 0;border-bottom:1px solid var(--line);transition:padding .3s}
+.dist-list li:hover{padding-left:8px}
+.dist-list li:first-child{border-top:1px solid var(--line)}
+.dist-list strong{display:block;font-size:16px;font-weight:600;color:var(--forest)}
+.dist-list span{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.dist-list b{font-family:var(--serif);font-size:30px;font-weight:600;color:var(--gold);white-space:nowrap}
+.loc-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+.loc-map{grid-column:8/span 5;position:relative}
+.map-card{background:var(--cream);border-radius:var(--radius);box-shadow:var(--shadow-lg);overflow:hidden}
+.map-card iframe{display:block;width:100%;height:440px;border:0;filter:saturate(.85) contrast(.95)}
+.map-card-foot{padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.map-card-foot strong{display:block;font-family:var(--serif);font-size:19px;color:var(--forest);font-weight:600}
+.map-card-foot span{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.map-card-foot a{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--gold);text-transform:uppercase;display:inline-flex;gap:6px;align-items:center}
+.map-card-foot a .ic{width:16px;height:16px}
+.map-pin-badge{position:absolute;top:18px;left:18px;z-index:2;background:var(--forest);color:#fbf9f2;padding:8px 12px;border-radius:var(--radius);font-size:12px;font-weight:600;display:flex;gap:8px;align-items:center;box-shadow:var(--shadow)}
+.map-pin-badge .ic{width:16px;height:16px;color:var(--gold-light)}
+
+/* ---------- FAQ ---------- */
+.faq-wrap{max-width:860px;margin:0 auto}
+.faq{border-bottom:1px solid var(--line)}
+.faq:first-child{border-top:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 4px;font-family:var(--serif);font-size:21px;font-weight:500;color:var(--forest);transition:color .2s}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover{color:var(--gold)}
+.faq summary .plus{flex:0 0 36px;height:36px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;transition:transform .35s ease,background .3s}
+.faq summary .plus .ic{width:18px;height:18px}
+.faq[open] summary .plus{transform:rotate(45deg);background:var(--forest);color:var(--gold-light)}
+.faq-body{padding:0 4px 26px;color:var(--muted);font-size:16px;line-height:1.75;max-width:720px;animation:fadeDown .4s ease}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+
+/* ---------- Contact & Visit Form ---------- */
+.contact-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:56px;align-items:start}
+.contact-col{grid-column:1/span 5;display:flex;flex-direction:column;gap:28px;padding-top:12px}
+.contact-col .lead{max-width:none}
+.contact-items{display:flex;flex-direction:column;gap:14px}
+.c-item{display:flex;gap:16px;align-items:center;padding:18px;border-radius:var(--radius);background:var(--surface);transition:background .25s,transform .25s}
+.c-item:hover{background:var(--surface-2);transform:translateX(4px)}
+.c-icon{width:48px;height:48px;border-radius:var(--radius);background:var(--forest);color:var(--gold-light);display:grid;place-items:center;flex:0 0 auto}
+.c-item small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.c-item strong{display:block;font-size:16px;font-weight:600;color:var(--forest);margin-top:2px;line-height:1.4}
+.c-item span{display:block;font-size:14px;color:var(--muted);margin-top:2px}
+.concierge{padding:22px;border-radius:var(--radius);background:var(--forest);color:#fbf9f2}
+.concierge h4{font-family:var(--serif);font-size:20px;font-weight:600;margin-bottom:8px}
+.concierge p{font-size:14px;line-height:1.6;color:rgba(251,249,242,.8)}
+.concierge a{color:var(--gold-light);font-weight:600}
+
+.form-card{grid-column:7/span 6;background:var(--cream);border-radius:var(--radius);box-shadow:var(--shadow-lg);padding:44px;position:relative}
+.form-card::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,var(--gold),var(--gold-light));border-radius:var(--radius) var(--radius) 0 0}
+.form-head h3{font-family:var(--serif);font-size:30px;font-weight:600;color:var(--forest);margin-top:6px}
+.form-head p{font-size:14px;color:var(--muted);margin-top:8px;display:flex;align-items:center;gap:8px}
+.form-head p .ic{width:18px;height:18px;color:var(--gold)}
+.visit-form{display:grid;grid-template-columns:1fr 1fr;gap:20px 20px;margin-top:28px}
+.field{display:flex;flex-direction:column;gap:8px}
+.field.full{grid-column:1/-1}
+.field label{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--forest)}
+.field label .req{color:#a33a2b;margin-left:2px}
+.field input,.field select,.field textarea{width:100%;padding:14px 16px;border:1px solid #d4d2c9;border-radius:var(--radius);background:var(--white);color:var(--ink);font-size:15px;transition:border-color .2s,box-shadow .2s;appearance:none;-webkit-appearance:none}
+.field select{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23002517' stroke-width='2' stroke-linecap='round'><path d='M6 9l6 6 6-6'/></svg>");background-repeat:no-repeat;background-position:right 14px center;padding-right:40px}
+.field textarea{resize:vertical;min-height:110px}
+.field input::placeholder,.field textarea::placeholder{color:#8a8f88}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 4px rgba(115,91,38,.15)}
+.field.invalid input,.field.invalid select,.field.invalid textarea{border-color:#a33a2b;box-shadow:0 0 0 4px rgba(163,58,43,.1)}
+.field .err{font-size:12px;color:#a33a2b;min-height:0;display:none}
+.field.invalid .err{display:block}
+.hint{font-size:12px;color:var(--muted)}
+.consent{grid-column:1/-1;display:flex;gap:12px;align-items:flex-start;padding:16px;border-radius:var(--radius);background:var(--surface);font-size:14px;line-height:1.55;color:var(--muted);cursor:pointer}
+.consent input{width:20px;height:20px;margin-top:2px;accent-color:var(--forest);flex:0 0 auto}
+.consent.invalid{outline:2px solid #a33a2b}
+.form-actions{grid-column:1/-1;display:flex;flex-direction:column;gap:14px;margin-top:6px}
+.form-actions .btn-forest{justify-content:center}
+.or-divider{display:flex;align-items:center;gap:12px;font-size:11px;font-weight:700;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.or-divider::before,.or-divider::after{content:"";flex:1;height:1px;background:var(--line)}
+.form-status{grid-column:1/-1;display:none;padding:16px 18px;border-radius:var(--radius);font-size:14px;line-height:1.55}
+.form-status.show{display:block}
+.form-status.ok{background:var(--mint);color:var(--forest)}
+.form-status.err{background:#f6dcd7;color:#6e2a20}
+.form-status.busy{background:var(--surface-2);color:var(--forest)}
+.spinner{display:inline-block;width:16px;height:16px;border:2px solid rgba(0,37,23,.25);border-top-color:var(--forest);border-radius:50%;vertical-align:-3px;margin-right:8px;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ---------- Trust strip ---------- */
+.trust{background:var(--surface);padding:48px 0}
+.trust-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}
+.trust-item{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:8px 4px}
+.trust-item .ic{width:28px;height:28px;color:var(--gold)}
+.trust-item strong{font-family:var(--serif);font-size:18px;font-weight:600;color:var(--forest)}
+.trust-item span{font-size:13px;line-height:1.5;color:var(--muted)}
+
+/* ---------- Footer ---------- */
+.site-footer{background:var(--forest);color:#fbf9f2;padding:80px 0 0;position:relative;overflow:hidden}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1.2fr 1.2fr;gap:48px;padding-bottom:56px}
+.footer-brand .brand{color:#fbf9f2}
+.footer-brand .brand-mark{background:var(--gold-light);color:var(--forest)}
+.footer-brand p{font-size:14px;line-height:1.7;color:rgba(251,249,242,.7);margin-top:20px;max-width:340px}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.badges span{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:7px 11px;border-radius:999px;border:1px solid rgba(255,222,162,.35);color:var(--gold-light)}
+.footer-col h4{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-light);margin-bottom:20px}
+.footer-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.footer-col a,.footer-col li{font-size:14px;color:rgba(251,249,242,.8);transition:color .2s}
+.footer-col a:hover{color:var(--gold-light)}
+.footer-col .contact-line{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:rgba(251,249,242,.8);line-height:1.5}
+.footer-col .contact-line .ic{width:18px;height:18px;color:var(--gold-light);margin-top:2px}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;padding:28px 0;border-top:1px solid rgba(251,249,242,.12);font-size:13px;color:rgba(251,249,242,.6)}
+.footer-bottom nav{display:flex;gap:24px}
+.footer-bottom a:hover{color:var(--gold-light)}
+.footer-glow{position:absolute;right:-120px;bottom:-160px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(255,222,162,.12),transparent 65%);pointer-events:none}
+
+/* ---------- Floating WhatsApp ---------- */
+.wa-float{position:fixed;right:22px;bottom:22px;z-index:90;width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 10px 24px -6px rgba(37,211,102,.6);transition:transform .25s ease}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float .ic{width:26px;height:26px}
+
+/* ---------- Lightbox ---------- */
+.lightbox{position:fixed;inset:0;z-index:200;background:rgba(0,20,13,.9);display:none;align-items:center;justify-content:center;padding:24px}
+.lightbox.open{display:flex;animation:fadeIn .25s ease}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.lightbox .panel{width:min(880px,100%);height:min(560px,70vh);position:relative;border-radius:var(--radius);overflow:hidden}
+.lightbox .panel .ph{position:absolute;inset:0}
+.lightbox .lb-cap{position:absolute;left:0;right:0;bottom:0;padding:22px;background:linear-gradient(0deg,rgba(0,37,23,.9),transparent);color:#fbf9f2;z-index:2}
+.lightbox .lb-cap small{display:block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-light)}
+.lightbox .lb-cap b{font-family:var(--serif);font-size:24px;font-weight:500}
+.lb-close{position:absolute;top:20px;right:20px;z-index:3;width:44px;height:44px;border-radius:50%;border:0;background:rgba(251,249,242,.15);color:#fbf9f2;display:grid;place-items:center}
+.lb-close:hover{background:rgba(251,249,242,.3)}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1200px){
+  :root{--pad:40px}
+  .hero h1{font-size:56px}
+  .nav-links{gap:18px}
+  .nav-links a{font-size:13px}
+}
+@media (max-width:1100px){
+  .nav-links,.nav-cta{display:none}
+  .menu-btn{display:block}
+  .mobile-menu{position:fixed;top:80px;left:0;right:0;background:var(--cream);border-bottom:1px solid var(--line);box-shadow:var(--shadow-lg);padding:12px var(--pad) 24px;display:none;flex-direction:column;gap:4px;z-index:99}
+  .mobile-menu.open{display:flex}
+  .mobile-menu a{padding:14px 0;border-bottom:1px solid var(--line);font-weight:500;color:var(--forest)}
+  .mobile-menu .btn{margin-top:12px;justify-content:center}
+  .plot-grid{grid-template-columns:repeat(2,1fr)}
+  .benefit-grid{grid-template-columns:repeat(2,1fr)}
+  .benefit,.benefit:nth-child(n){grid-column:auto}
+  .benefit:last-child{grid-column:1/-1}
+  .trust-grid{grid-template-columns:repeat(3,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:900px){
+  :root{--pad:24px}
+  .section{padding:72px 0}
+  .h2{font-size:36px}
+  .hero h1{font-size:46px}
+  .hero{padding-top:120px}
+  .about-copy,.about-visual,.own-copy,.own-visual,.loc-copy,.loc-map,.contact-col,.form-card{grid-column:1/-1;order:0}
+  .about-copy{order:2}
+  .about-visual{order:1;padding-bottom:40px}
+  .mp-map,.inspector{grid-column:1/-1}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:220px}
+  .g-item.span-7,.g-item.span-5,.g-item.span-4,.g-item.span-8,.g-item.span-6{grid-column:span 1}
+  .g-item.wide{grid-column:span 2}
+  .own-visual .ph{height:300px}
+  .form-card{padding:32px}
+  .pillars{grid-template-columns:1fr}
+  .loc-map{margin-top:8px}
+  .map-card iframe{height:360px}
+}
+@media (max-width:640px){
+  :root{--pad:20px}
+  .section{padding:60px 0}
+  .h2{font-size:30px}
+  .lead{font-size:16px}
+  .hero h1{font-size:38px}
+  .hero .sub{font-size:16px}
+  .hero-foot{flex-direction:column;align-items:flex-start}
+  .cta-row .btn{width:100%;justify-content:center}
+  .stat-cards{grid-template-columns:1fr}
+  .collage-main{height:320px}
+  .collage-card{width:56%;right:-2%}
+  .collage-card .ph{height:170px}
+  .collage-note{left:0;top:14px;max-width:210px}
+  .benefit-grid{grid-template-columns:1fr}
+  .benefit,.benefit:nth-child(n){grid-column:auto}
+  .plot-grid{grid-template-columns:1fr}
+  .inventory-bar{flex-direction:column;align-items:flex-start}
+  .filter-group{width:100%;justify-content:space-between}
+  .chip{padding:8px 10px;font-size:12px;flex:1 1 auto;text-align:center}
+  .inspector{padding:24px}
+  .insp-title{font-size:26px}
+  .dist-list b{font-size:24px}
+  .loc-actions .btn{flex:1 1 100%;justify-content:center}
+  .map-card iframe{height:300px}
+  .visit-form{grid-template-columns:1fr}
+  .form-card{padding:26px 20px}
+  .form-head h3{font-size:26px}
+  .trust-grid{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1fr;gap:36px}
+  .footer-bottom{flex-direction:column;align-items:flex-start}
+  .gallery-grid{grid-template-columns:1fr;grid-auto-rows:240px}
+  .g-item.wide{grid-column:auto}
+  .step{grid-template-columns:44px 1fr;gap:14px;padding:16px}
+  .step-num{width:44px;height:44px;font-size:18px}
+  .quote blockquote{font-size:17px}
+  .faq summary{font-size:18px}
+  .brand-text strong{font-size:15px}
+  .brand-text span{font-size:9px}
+}
+@media (max-width:380px){
+  .trust-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14z"/><path d="M5 19l7-7"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l4 4 10-10"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M3 5h18v14H3z"/><path d="M3 6l9 7 9-7"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-train" viewBox="0 0 24 24"><rect x="6" y="3" width="12" height="12" rx="2"/><path d="M6 11h12M9 18l-2 3M15 18l2 3"/></symbol>
+  <symbol id="i-road" viewBox="0 0 24 24"><path d="M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/></symbol>
+  <symbol id="i-plane" viewBox="0 0 24 24"><path d="M3 13l18-5-2 2-6 1v6l-2 1-2-4-5 0z"/></symbol>
+  <symbol id="i-city" viewBox="0 0 24 24"><path d="M3 21h18M5 21V8h6v13M11 12h8v9M7 11h2M7 15h2M14 15h2M14 18h2"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h6a3 3 0 0 0 0-6h-4a3 3 0 0 1 0-6h6"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></symbol>
+  <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 21v-7M12 14c-4 0-6-3-6-6 2 0 3 .5 4 1.5C10.5 7 11 5 12 3c1 2 1.5 4 2 6.5 1-1 2-1.5 4-1.5 0 3-2 6-6 6z"/></symbol>
+  <symbol id="i-water" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9.5 15a2.5 2.5 0 0 0 2.5 2.5"/></symbol>
+  <symbol id="i-gift" viewBox="0 0 24 24"><rect x="4" y="9" width="16" height="11" rx="1"/><path d="M3 9h18v-3H3zM12 9v11M12 6c-1-2-4-2-4 0s3 2 4 0zm0 0c1-2 4-2 4 0s-3 2-4 0z"/></symbol>
+</svg>
+
+<!-- ============================ HEADER ============================ -->
+<header class="site-header" id="siteHeader">
+  <div class="nav">
+    <a href="#home" class="brand" aria-label="Sri Vetri Vinayaga Real Estate home">
+      <span class="brand-mark"><svg class="ic"><use href="#i-leaf"/></svg></span>
+      <span class="brand-text"><strong>Sri Vetri Vinayaga Real Estate</strong><span>NithesKumar</span></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-a">Home</a></li>
+      <li><a href="#about" class="nav-a">About</a></li>
+      <li><a href="#farmlands" class="nav-a">Farmlands</a></li>
+      <li><a href="#amenities" class="nav-a">Amenities</a></li>
+      <li><a href="#masterplan" class="nav-a">Masterplan</a></li>
+      <li><a href="#gallery" class="nav-a">Gallery</a></li>
+      <li><a href="#location" class="nav-a">Location</a></li>
+      <li><a href="#contact" class="nav-a">Contact</a></li>
+    </ul>
+    <a href="#visit" class="nav-cta">Book a Site Visit</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><svg class="ic" id="menuIcon"><use href="#i-menu"/></svg></button>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#farmlands">Farmlands</a>
+    <a href="#amenities">Amenities</a>
+    <a href="#masterplan">Masterplan</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+    <a href="#visit" class="btn btn-gold">Book a Site Visit</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============================ 1. HERO ============================ -->
+<section class="hero" id="home">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="ph ph-hero"></div>
+  </div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <span class="pill">Premium Coconut Farmland · Kinathukadavu, Coimbatore</span>
+      <h1>Own Your Piece of <em>Green Paradise.</em></h1>
+      <p class="sub">Discover well-maintained, high-yield coconut farmland near Kinathukadavu. Where resilient red soil, thoughtful agronomy, perennial groundwater, and clear title ownership converge for generational calm.</p>
+      <div class="cta-row">
+        <a href="#farmlands" class="btn btn-gold">Explore Available Plots <svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a href="#visit" class="btn btn-glass"><svg class="ic"><use href="#i-cal"/></svg> Schedule a Site Visit</a>
+      </div>
+      <div class="pillars">
+        <div class="pillar"><svg class="ic"><use href="#i-tree"/></svg><div><strong>30+ Coconut Trees</strong><span>Productive Trees / Unit</span></div></div>
+        <div class="pillar"><svg class="ic"><use href="#i-water"/></svg><div><strong>Borewell &amp; Drip</strong><span>Dedicated Water Net</span></div></div>
+        <div class="pillar"><svg class="ic"><use href="#i-gift"/></svg><div><strong>1 Year Free Care</strong><span>Complete Stewardship</span></div></div>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <small>Kinathukadavu Taluk · Pollachi Agro Belt</small>
+      <a href="#about" class="scroll-link">Scroll Down <svg class="ic"><use href="#i-down"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 2. ABOUT ============================ -->
+<section class="section bg-cream" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="collage-main ph ph-soil">
+          <div class="collage-note">
+            <small>Generational Security</small>
+            <p>Over 28 acres master-planned with individual boundary surveyed plots.</p>
+          </div>
+          <div class="collage-badge"><svg class="ic"><use href="#i-pin"/></svg> Kinathukadavu Valley, Coimbatore</div>
+        </div>
+        <div class="collage-card">
+          <div class="ph ph-water"><span class="ph-label">Water assets</span></div>
+        </div>
+      </div>
+      <div class="about-copy reveal">
+        <span class="eyebrow">A different way to own land</span>
+        <h2 class="h2">Rooted in Nature.<em>Designed for Peace of Mind.</em></h2>
+        <div class="about-body">
+          <p>Buying agricultural land shouldn’t bring maintenance headaches or legal uncertainty. At Sri Vetri Vinayaga Real Estate, we have combined the age-old heritage of the Pollachi-Kinathukadavu agrarian corridor with an engineered stewardship framework.</p>
+          <p>Every plot comes pre-planted with 30+ bearing, meticulously cared-for coconut trees. We furnish individual drip micro-irrigation lines tapping into perennial groundwater borewells, secure individual electricity connections, and manage the grove for your first full year. You hold pristine title deeds while savoring fresh farm yields and peaceful country weekends.</p>
+        </div>
+        <div class="stat-cards">
+          <div class="stat"><b>100%</b><span>Clear Patta &amp; legal documentation ready for immediate registration.</span></div>
+          <div class="stat"><b>365 Days</b><span>Full professional farm maintenance included with no extra charges.</span></div>
+        </div>
+        <a href="#farmlands" class="btn btn-forest about-cta">Discover Our Farmland Plots <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 3. INFRASTRUCTURE / AMENITIES ============================ -->
+<section class="section bg-surface" id="amenities">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">End-to-end infrastructure</span>
+      <h2 class="h2">Everything You Need to Feel <em>Confident.</em></h2>
+      <p class="lead">Crafted for effortless agricultural ownership with complete on-ground infrastructure, round-the-clock water logistics, and agricultural compliance.</p>
+    </div>
+    <div class="benefit-grid">
+      <article class="benefit reveal">
+        <div class="icon"><svg class="ic"><use href="#i-tree"/></svg></div>
+        <span class="tag">Proven fertility</span>
+        <h3>Well-Maintained Coconut Farms</h3>
+        <p>Every parcel features thriving, matured Coconut trees curated by agricultural specialists. We practice biological enrichment, intercropping protocols, and pest shields to preserve tree longevity.</p>
+        <div class="meta"><svg class="ic"><use href="#i-check"/></svg> 30–75 Coconut Trees per Plot</div>
+      </article>
+      <article class="benefit reveal">
+        <div class="icon"><svg class="ic"><use href="#i-drop"/></svg></div>
+        <span class="tag">Perennial network</span>
+        <h3>Dedicated Water Facilities</h3>
+        <p>Abundant sweet groundwater from high-capacity community borewells. Features pressurized drip lines delivering automated moisture right to every tree root system.</p>
+        <div class="meta"><svg class="ic"><use href="#i-check"/></svg> Automated Drip Distribution</div>
+      </article>
+      <article class="benefit reveal">
+        <div class="icon"><svg class="ic"><use href="#i-gift"/></svg></div>
+        <span class="tag">Zero effort year 1</span>
+        <h3>1 Year Free Maintenance</h3>
+        <p>Enjoy complete peace of mind. Our farm staff handles ring clearance, organic manure applications, irrigation checks, and crop harvesting without demanding a single rupee from you.</p>
+        <div class="meta"><svg class="ic"><use href="#i-check"/></svg> Managed Local Farm Team</div>
+      </article>
+      <article class="benefit reveal">
+        <div class="icon"><svg class="ic"><use href="#i-bolt"/></svg></div>
+        <span class="tag">TANGEDCO compliant</span>
+        <h3>Free EB (Electricity) Benefit</h3>
+        <p>Seamless agricultural power provision. Step-down transformer access points, underground cabling channels, and sanctioned agricultural electricity connections prepared for farm power setups.</p>
+        <div class="meta"><svg class="ic"><use href="#i-check"/></svg> Low-Tariff Agri Power Infrastructure</div>
+      </article>
+      <article class="benefit reveal">
+        <div class="icon"><svg class="ic"><use href="#i-shield"/></svg></div>
+        <span class="tag">Due diligence certified</span>
+        <h3>Verified Legal Documentation</h3>
+        <p>Every plot features spotless 30-year parent documentation, zero encumbrance status, individual FMB sketch copies, government land survey stone boundaries, and patta transfer protocols.</p>
+        <div class="meta"><svg class="ic"><use href="#i-check"/></svg> Lawyer-Vetted Title Dossiers</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 4. AVAILABLE FARMLANDS ============================ -->
+<section class="section bg-cream" id="farmlands">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Estate inventory</span>
+      <h2 class="h2">Find Your Place in the <em>Green.</em></h2>
+      <p class="lead">Explore meticulously demarcated coconut farmland units. Choose based on land extent, tree maturity, and your long-term country retreat vision.</p>
+    </div>
+
+    <div class="inventory-bar reveal">
+      <div class="inventory-count">Live Inventory: <b id="liveCount">14</b>/ 24 Total</div>
+      <div class="filters">
+        <div class="filter-group" role="group" aria-label="Filter by extent" id="extentFilters">
+          <button class="chip" data-extent="all" aria-pressed="true">All Plots</button>
+          <button class="chip" data-extent="25" aria-pressed="false">25 Cents</button>
+          <button class="chip" data-extent="50" aria-pressed="false">50 Cents</button>
+          <button class="chip" data-extent="100" aria-pressed="false">1.00 Acre</button>
+        </div>
+        <div class="filter-group" role="group" aria-label="Filter by status" id="statusFilters">
+          <button class="chip" data-status="all" aria-pressed="true">All</button>
+          <button class="chip" data-status="available" aria-pressed="false">Available</button>
+          <button class="chip" data-status="reserved" aria-pressed="false">Reserved</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="plot-grid" id="plotGrid">
+      <article class="plot-card reveal" data-extent="50" data-status="available">
+        <div class="plot-media ph ph-soil">
+          <span class="plot-no">Plot #12</span>
+          <span class="status">Available</span>
+        </div>
+        <div class="plot-body">
+          <h3>The Coco Haven</h3>
+          <p class="desc">Peaceful plot near eastern avenue with direct borewell link.</p>
+          <dl class="specs">
+            <div><dt>Extent</dt><dd>50 Cents</dd></div>
+            <div><dt>Coconut Tree</dt><dd>38 Trees</dd></div>
+            <div><dt>Water Link</dt><dd>Dedicated Line</dd></div>
+            <div><dt>Electricity</dt><dd>Free EB Ready</dd></div>
+          </dl>
+          <div class="price-row">
+            <div><small>Investment</small><b>₹34,50,000</b></div>
+            <button class="link-btn" data-open-plot="12">View Details <svg class="ic"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="plot-card reveal" data-extent="25" data-status="available">
+        <div class="plot-media ph ph-water">
+          <span class="plot-no">Plot #07</span>
+          <span class="status">Available</span>
+        </div>
+        <div class="plot-body">
+          <h3>Emerald Meadow</h3>
+          <p class="desc">Compact boutique parcel, ideal for farm weekend cottage.</p>
+          <dl class="specs">
+            <div><dt>Extent</dt><dd>25 Cents</dd></div>
+            <div><dt>Coconut Tree</dt><dd>19 Trees</dd></div>
+            <div><dt>Water Link</dt><dd>Piped Drip</dd></div>
+            <div><dt>Electricity</dt><dd>Free EB Ready</dd></div>
+          </dl>
+          <div class="price-row">
+            <div><small>Investment</small><b>₹18,00,000</b></div>
+            <button class="link-btn" data-open-plot="7">View Details <svg class="ic"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="plot-card reveal" data-extent="100" data-status="available">
+        <div class="plot-media ph ph-road">
+          <span class="plot-no">Plot #19</span>
+          <span class="status fast">Fast Selling</span>
+        </div>
+        <div class="plot-body">
+          <h3>The Grove Sanctuary</h3>
+          <p class="desc">Full 1-Acre signature estate with double corner road access.</p>
+          <dl class="specs">
+            <div><dt>Extent</dt><dd>1.00 Acre</dd></div>
+            <div><dt>Coconut Tree</dt><dd>72 Trees</dd></div>
+            <div><dt>Water Link</dt><dd>Dual Channel</dd></div>
+            <div><dt>Electricity</dt><dd>Dedicated Phase</dd></div>
+          </dl>
+          <div class="price-row">
+            <div><small>Investment</small><b>₹67,00,000</b></div>
+            <button class="link-btn" data-open-plot="19">View Details <svg class="ic"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="plot-card reveal" data-extent="50" data-status="reserved">
+        <div class="plot-media ph ph-hero">
+          <span class="plot-no">Plot #23</span>
+          <span class="status reserved">Reserved</span>
+        </div>
+        <div class="plot-body">
+          <h3>Sunrise Vista</h3>
+          <p class="desc">Elevated contour with uninterrupted views of the morning mist.</p>
+          <dl class="specs">
+            <div><dt>Extent</dt><dd>50 Cents</dd></div>
+            <div><dt>Coconut Tree</dt><dd>36 Trees</dd></div>
+            <div><dt>Water Link</dt><dd>Borewell Linked</dd></div>
+            <div><dt>Electricity</dt><dd>Free EB Ready</dd></div>
+          </dl>
+          <div class="price-row">
+            <div><small>Investment</small><b>₹35,00,000</b></div>
+            <button class="link-btn" data-open-plot="23">Join Waitlist <svg class="ic"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </article>
+      <p class="plot-empty" id="plotEmpty" hidden>No plots match these filters. Try another extent or status.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 5. INTERACTIVE MASTERPLAN ============================ -->
+<section class="section bg-surface" id="masterplan">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Topographical layout</span>
+      <h2 class="h2">Explore the Farmland <em>Layout.</em></h2>
+      <p class="lead">Click any plot polygon to inspect its area in cents, Coconut Tree census, and exact water valve connectivity.</p>
+    </div>
+
+    <div class="mp-grid">
+      <div class="mp-map reveal">
+        <div class="mp-map-head">
+          <div class="legend">
+            <span><i class="lg-av"></i>Available (<b id="cntAv">14</b>)</span>
+            <span><i class="lg-rs"></i>Reserved (<b id="cntRs">6</b>)</span>
+            <span><i class="lg-sd"></i>Sold (<b id="cntSd">4</b>)</span>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <svg id="plotMap" viewBox="0 0 800 480" role="img" aria-label="Interactive masterplan of 24 plots"></svg>
+        </div>
+        <div class="map-foot">
+          <span>Tap on any colored parcel to view specifics.</span>
+          <span>Physical survey markers demarcate all boundaries.</span>
+        </div>
+      </div>
+
+      <aside class="inspector reveal" id="inspector" aria-live="polite">
+        <div class="insp-top">
+          <span class="insp-sel" id="inspSel">Plot #12 selected</span>
+          <span class="insp-status" id="inspStatus">Available</span>
+        </div>
+        <h3 class="insp-title" id="inspTitle">The Coco Haven</h3>
+        <p class="insp-desc" id="inspDesc">Prime eastern sector with high water yields and fertile soil.</p>
+        <dl class="insp-specs">
+          <div><dt>Plot Extent</dt><dd id="inspExtent">50 Cents (0.50 Acre)</dd></div>
+          <div><dt>Bearing Coconut Trees</dt><dd id="inspPalms">38 Matured Coconut Trees</dd></div>
+          <div><dt>Water Connection</dt><dd id="inspWater">Valve Node #03 (Active)</dd></div>
+          <div><dt>EB Ready</dt><dd id="inspEb">Yes (Free EB Benefit)</dd></div>
+        </dl>
+        <div class="insp-price">
+          <small>Base consideration</small>
+          <b id="inspPrice">₹34,50,000</b>
+          <p id="inspNote">Includes registration assistance &amp; 1-year free care.</p>
+        </div>
+        <div class="insp-actions">
+          <a href="#visit" class="btn btn-gold" id="inspReserve">Reserve Plot Site Visit <svg class="ic"><use href="#i-arrow"/></svg></a>
+          <a href="#" class="btn btn-wa" id="inspWa" target="_blank" rel="noopener"><svg class="ic"><use href="#i-chat"/></svg> Enquire on WhatsApp</a>
+        </div>
+        <p class="insp-note">Plot details are subject to final survey and title verification.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 6. OWNERSHIP EXPERIENCE ============================ -->
+<section class="section bg-cream" id="ownership">
+  <div class="wrap">
+    <div class="own-grid">
+      <div class="own-copy reveal">
+        <span class="eyebrow">Tranquil stewardship</span>
+        <h2 class="h2">More Than Farmland.<em style="display:block">A Better Ownership Experience.</em></h2>
+        <p class="lead">Most farmland buyers find traditional land ownership daunting — constant travel to supervise farm labor, managing unpredictable water lines, or struggling with local patta documentation. We built Sri Vetri Vinayaga Real Estate to eradicate those challenges completely.</p>
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-num">1</div>
+            <div><h3>1 Year of Complete Free Maintenance</h3><p>Our resident agronomy team handles all physical operations: organic fertilization with farmyard compost, ring de-weeding, scheduled micro-drip cycling, and coconut collection.</p></div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">2</div>
+            <div><h3>Tested &amp; Plentiful Water Reliability</h3><p>Kinathukadavu’s fertile soil is backed by our proven multi-borewell grid. Piped water conduits reach every individual parcel, ensuring optimal hydration for your Coconut Trees 365 days a year.</p></div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">3</div>
+            <div><h3>Transparent Legal &amp; EB Documentation</h3><p>Absolute transparency from day one. You receive an exhaustive legal dossier, government survey stone demarcation, revenue patta name-transfer facilitation, and free agricultural EB line benefits.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="own-visual reveal">
+        <div class="ph ph-hero"><span class="ph-label">Estate at dusk</span></div>
+        <figure class="quote" style="margin:0">
+          <span class="eyebrow">Harvest peace of mind</span>
+          <blockquote>“A retreat for our weekends and a productive green legacy for our children.”</blockquote>
+          <cite>— Dr. Sundararaman V., Farmland Owner (Plot #04)</cite>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 7. GALLERY ============================ -->
+<section class="section bg-surface" id="gallery">
+  <div class="wrap">
+    <div class="gallery-head reveal">
+      <div>
+        <span class="eyebrow">Real estate visuals</span>
+        <h2 class="h2" style="margin-top:14px">Immersive Plantation <em>Experience.</em></h2>
+        <p class="lead" style="margin-top:14px">Glimpses of daily life, agricultural infrastructure, and nature at Sri Vetri Vinayaga Real Estate.</p>
+      </div>
+      <div class="filter-group" role="group" aria-label="Filter gallery" id="galFilters">
+        <button class="chip" data-cat="all" aria-pressed="true">All</button>
+        <button class="chip" data-cat="palms" aria-pressed="false">Coconut Trees &amp; Soil</button>
+        <button class="chip" data-cat="water" aria-pressed="false">Water Assets</button>
+        <button class="chip" data-cat="avenues" aria-pressed="false">Avenues</button>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <figure class="g-item span-7 reveal" data-cat="palms" data-caption="Mature palm rows" tabindex="0"><div class="ph ph-hero"></div><figcaption class="cap"><small>Coconut Trees &amp; soil</small><b>Mature Coconut Tree rows</b></figcaption></figure>
+      <figure class="g-item span-5 reveal" data-cat="water" data-caption="Borewell and drip valve" tabindex="0"><div class="ph ph-water"></div><figcaption class="cap"><small>Water assets</small><b>Borewell &amp; drip valve</b></figcaption></figure>
+      <figure class="g-item span-4 reveal" data-cat="avenues" data-caption="23ft tar avenue" tabindex="0"><div class="ph ph-road"></div><figcaption class="cap"><small>Avenues</small><b>23ft tar avenue</b></figcaption></figure>
+      <figure class="g-item span-4 reveal" data-cat="palms" data-caption="Compost cycle, organic farming" tabindex="0"><div class="ph ph-soil"></div><figcaption class="cap"><small>Coconut Trees &amp; soil</small><b>Organic compost cycle</b></figcaption></figure>
+      <figure class="g-item span-4 reveal" data-cat="water" data-caption="Piped conduits to every parcel" tabindex="0"><div class="ph ph-water"></div><figcaption class="cap"><small>Water assets</small><b>Piped water conduits</b></figcaption></figure>
+      <figure class="g-item span-8 reveal" data-cat="avenues" data-caption="Estate entrance and grand gate" tabindex="0"><div class="ph ph-road"></div><figcaption class="cap"><small>Avenues</small><b>Estate entrance &amp; grand gate</b></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 8. LOCATION & CONNECTIVITY ============================ -->
+<section class="section bg-cream" id="location">
+  <div class="wrap">
+    <div class="loc-grid">
+      <div class="loc-copy reveal">
+        <span class="eyebrow">Prime accessibility</span>
+        <h2 class="h2">Your Connection to a <em>Greener Way of Living.</em></h2>
+        <p class="lead">Nestled peacefully in the Kinathukadavu agro-corridor, minutes away from the Pollachi 4-lane highway (NH 83). You enjoy pristine unpolluted country air and rich water tables, while staying smoothly connected to Coimbatore city and its airport.</p>
+        <ul class="dist-list">
+          <li><div><strong>Kinathukadavu Town &amp; Railway</strong><span>Daily passenger trains &amp; local markets</span></div><b>6 km</b></li>
+          <li><div><strong>Coimbatore Podanur Junction</strong><span>Smooth 4-lane highway drive</span></div><b>22 km</b></li>
+          <li><div><strong>Pollachi Town &amp; Market</strong><span>World-famous coconut agro trading hub</span></div><b>18 km</b></li>
+          <li><div><strong>Coimbatore Int’l Airport (CJB)</strong><span>Direct highway connectivity</span></div><b>38 km</b></li>
+        </ul>
+        <div class="loc-actions">
+          <a href="#visit" class="btn btn-forest"><svg class="ic"><use href="#i-route"/></svg> Schedule Driven Site Tour</a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Kinathukadavu+Taluk+Coimbatore+Tamil+Nadu" target="_blank" rel="noopener" class="btn btn-line"><svg class="ic"><use href="#i-map"/></svg> Driving Directions</a>
+        </div>
+      </div>
+      <div class="loc-map reveal">
+        <div class="map-card">
+          <div style="position:relative">
+            <div class="map-pin-badge"><svg class="ic"><use href="#i-pin"/></svg> Sri Vetri Vinayaga Real Estate</div>
+            <iframe title="Map of Kinathukadavu Taluk, Coimbatore" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Kinathukadavu,+Coimbatore,+Tamil+Nadu&output=embed"></iframe>
+          </div>
+          <div class="map-card-foot">
+            <div><strong>Sri Vetri Vinayaga Real Estate</strong><span>Kinathukadavu Taluk · Direct 30ft all-weather tar access</span></div>
+            <a href="https://www.google.com/maps/search/?api=1&query=Kinathukadavu+Taluk+Coimbatore" target="_blank" rel="noopener">Open in Google Maps <svg class="ic"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 9. FAQ ============================ -->
+<section class="section bg-surface" id="faq">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Transparency first</span>
+      <h2 class="h2">Frequently Asked <em>Questions.</em></h2>
+      <p class="lead">Clear answers on land ownership, maintenance commitments, water security, and documentation.</p>
+    </div>
+    <div class="faq-wrap reveal">
+      <details class="faq" open>
+        <summary>What plot sizes are available at Sri Vetri Vinayaga real estate?<span class="plus"><svg class="ic"><use href="#i-plus"/></svg></span></summary>
+        <div class="faq-body">Plots are offered in 25 Cents, 50 Cents (0.50 Acre) and 1.00 Acre extents. Each plot is individually boundary-surveyed and pre-planted with bearing coconut Tress.</div>
+      </details>
+      <details class="faq">
+        <summary>How is water guaranteed for every coconut plot?<span class="plus"><svg class="ic"><use href="#i-plus"/></svg></span></summary>
+        <div class="faq-body">Every parcel is connected to our multi-borewell grid through piped water conduits and pressurized drip lines that deliver moisture directly to each tree root system.</div>
+      </details>
+      <details class="faq">
+        <summary>What is included in the One Year of Free Maintenance?<span class="plus"><svg class="ic"><use href="#i-plus"/></svg></span></summary>
+        <div class="faq-body">Our farm team handles ring de-weeding, organic farmyard compost application, drip irrigation checks, pest protection, and harvest collection for your first full year, at no extra charge.</div>
+      </details>
+      <details class="faq">
+        <summary>What does the “Free EB Benefit” entail?<span class="plus"><svg class="ic"><use href="#i-plus"/></svg></span></summary>
+        <div class="faq-body">Each plot is prepared with a sanctioned agricultural electricity connection, step-down transformer access and underground cabling channels, so your farm power setup is ready from the start.</div>
+      </details>
+      <details class="faq">
+        <summary>Are the land titles legally vetted and ready for registration?<span class="plus"><svg class="ic"><use href="#i-plus"/></svg></span></summary>
+        <div class="faq-body">Yes. Every plot comes with a 30-year parent document review, zero-encumbrance status, individual FMB sketch copies, government survey stone boundaries, and patta transfer support.</div>
+      </details>
+      <details class="faq">
+        <summary>Can I schedule a guided site visit from Coimbatore?<span class="plus"><svg class="ic"><use href="#i-plus"/></svg></span></summary>
+        <div class="faq-body">Absolutely. Use the Book a Private Site Visit form below. Free transport from Coimbatore can be arranged, and we will share a legal kit preview during your visit.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 10. CONTACT & SITE VISIT ============================ -->
+<section class="section bg-cream" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-col reveal">
+        <span class="eyebrow">Schedule your visit</span>
+        <h2 class="h2">Your Dream Coconut Farmland <em>Starts Here.</em></h2>
+        <p class="lead">Experience the refreshing breeze, inspect our borewell yields, and walk beneath 30+ bearing Coconut Tree. Fill out this brief form and our team will get in touch immediately.</p>
+        <div class="contact-items">
+          <a class="c-item" href="tel:+919842200000">
+            <div class="c-icon"><svg class="ic"><use href="#i-phone"/></svg></div>
+            <div><small>Call directly</small><strong>+91 9025245177 / 6382452619</strong></div>
+          </a>
+          <a class="c-item" href="https://wa.me/919025245177" target="_blank" rel="noopener">
+            <div class="c-icon"><svg class="ic"><use href="#i-chat"/></svg></div>
+            <div><small>WhatsApp instant support</small><strong>+91 9025245177</strong></div>
+          </a>
+          <div class="c-item">
+            <div class="c-icon"><svg class="ic"><use href="#i-pin"/></svg></div>
+            <div><small>Site location</small><strong>Kinathukadavu Taluk, Pollachi Highway, Coimbatore</strong></div>
+          </div>
+        </div>
+        <div class="concierge">
+          <h4>Direct Estate Concierge</h4>
+          <p>Inquire regarding private title deed certifications, groundwater availability, and harvest yield schedules.</p>
+          <p style="margin-top:10px"><a href="mailto:harshavarthan811@gmail.com">harshavarthan811@gmail.com/a></p>
+        </div>
+      </div>
+
+      <div class="form-card reveal" id="visit">
+        <div class="form-head">
+          <span class="eyebrow">Book a private site visit</span>
+          <h3>Confirm Your Visit</h3>
+          <p><svg class="ic"><use href="#i-gift"/></svg> Includes free transport from Coimbatore &amp; legal kit preview.</p>
+        </div>
+
+        <form class="visit-form" id="visitForm" novalidate>
+          <div class="field" id="f-fullName">
+            <label for="fullName">Full Name <span class="req">*</span></label>
+            <input id="fullName" name="fullName" type="text" placeholder="e.g. Karthik Sundaram" autocomplete="name" maxlength="100" required>
+            <span class="err">Please enter your full name (at least 2 characters).</span>
+          </div>
+
+          <div class="field" id="f-whatsapp">
+            <label for="whatsapp">WhatsApp / Mobile Number <span class="req">*</span></label>
+            <input id="whatsapp" name="whatsapp" type="tel" placeholder="+91 98422 00000" autocomplete="tel" maxlength="20" inputmode="tel" required>
+            <span class="err">Enter a valid 10–15 digit number.</span>
+          </div>
+
+          <div class="field" id="f-plotExtent">
+            <label for="plotExtent">Preferred Plot Extent <span class="req">*</span></label>
+            <select id="plotExtent" name="plotExtent" required>
+              <option value="50 Cents (0.50 Acre)">50 Cents (0.50 Acre)</option>
+              <option value="25 Cents">25 Cents</option>
+              <option value="1.00 Acre">1.00 Acre</option>
+            </select>
+            <span class="err">Please choose a plot extent.</span>
+          </div>
+
+          <div class="field" id="f-visitDay">
+            <label for="visitDay">Preferred Visit Day</label>
+            <input id="visitDay" name="visitDay" type="date">
+            <span class="err">Please choose today or a future date.</span>
+          </div>
+
+          <div class="field full">
+            <label for="specialRequirements">Special Questions or Requirements</label>
+            <textarea id="specialRequirements" name="specialRequirements" maxlength="1000" placeholder="Tell us if you require pickup from Coimbatore railway/airport, or questions about title deeds..."></textarea>
+          </div>
+
+          <label class="consent" id="f-consent">
+            <input type="checkbox" id="consent" name="consent">
+            <span>I consent to receiving site visit details and pricing dossiers via WhatsApp &amp; Phone.</span>
+          </label>
+          <div class="field full" id="f-consentErr" style="margin-top:-12px">
+            <span class="err" style="display:none">Please give consent so we can send your site visit details.</span>
+          </div>
+
+          <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-forest btn-block" id="submitBtn">Confirm Site Visit Request <svg class="ic"><use href="#i-arrow"/></svg></button>
+            <div class="or-divider">or</div>
+            <a href="https://wa.me/919025245177" target="_blank" rel="noopener" class="btn btn-wa btn-block" id="waSecondary"><svg class="ic"><use href="#i-chat"/></svg> Chat Instantly on WhatsApp</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TRUST STRIP ============================ -->
+<section class="trust" aria-label="Key highlights">
+  <div class="wrap trust-grid">
+    <div class="trust-item reveal"><svg class="ic"><use href="#i-tree"/></svg><strong>Well-Maintained Coconut Trees</strong><span>Cultivated, bearing trees with organic compost cycles.</span></div>
+    <div class="trust-item reveal"><svg class="ic"><use href="#i-drop"/></svg><strong>Abundant Water</strong><span>Active deep borewells with individual drip connections.</span></div>
+    <div class="trust-item reveal"><svg class="ic"><use href="#i-gift"/></svg><strong>1-Yr Free Maintenance</strong><span>Expert weeding, fertilization, and harvest handover.</span></div>
+    <div class="trust-item reveal"><svg class="ic"><use href="#i-bolt"/></svg><strong>Free EB Benefit</strong><span>Dedicated agricultural power grid feeder line ready.</span></div>
+    <div class="trust-item reveal"><svg class="ic"><use href="#i-shield"/></svg><strong>100% Clear Title</strong><span>Patta verified, individual demarcated survey boundaries.</span></div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="site-footer">
+  <div class="footer-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand">
+          <span class="brand-mark"><svg class="ic"><use href="#i-leaf"/></svg></span>
+          <span class="brand-text"><strong>Sri Vinayaga Real Estate</strong><span>NithesKummar</span></span>
+        </a>
+        <p>Peaceful Agricultural Estates in Kinathukadavu, Coimbatore. Generational managed coconut farmlands blended with boutique permaculture retreats, sustainable groundwater infrastructure, and timeless natural luxury.</p>
+        <div class="badges">
+          <span>RERA &amp; Legal Title Clear</span>
+          <span>Survey Verified Farmland</span>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Navigation</h4>
+        <ul>
+          <li><a href="#home">Home &amp; Vision</a></li>
+          <li><a href="#about">Heritage &amp; Permaculture</a></li>
+          <li><a href="#farmlands">Managed Farmland Plots</a></li>
+          <li><a href="#amenities">Fencing &amp; Amenities</a></li>
+          <li><a href="#masterplan">Interactive Masterplan</a></li>
+          <li><a href="#location">Kinathukadavu Access</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Direct Estate Concierge</h4>
+        <ul>
+          <li class="contact-line"><svg class="ic"><use href="#i-phone"/></svg> <a href="tel:+919025245177">+91 9025245177</a></li>
+          <li class="contact-line"><svg class="ic"><use href="#i-chat"/></svg> <a href="https://wa.me/919025245177" target="_blank" rel="noopener">WhatsApp: +91 9025245177</a></li>
+          <li class="contact-line"><svg class="ic"><use href="#i-mail"/></svg> <a href="mailto: harshavarthan@811gmail.com">harshavarthan811@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Office</h4>
+        <ul>
+          <li class="contact-line"><svg class="ic"><use href="#i-pin"/></svg> <span>Kinathukadavu Taluk, Coimbatore, TN 642109</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 NithesKummar Sri Vetri Vinayaga Real Estate All rights reserved.</span>
+      <nav aria-label="Legal">
+        <a href="#">Terms of Land Use</a>
+        <a href="#">Privacy Policy</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a class="wa-float" href="https://wa.me/919025245177" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg class="ic"><use href="#i-chat"/></svg></a>
+
+<!-- Gallery lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image">
+  <div class="panel">
+    <div class="ph" id="lbPh"></div>
+    <div class="lb-cap"><small>Sri Vetri Vinayaga Real Estate</small><b id="lbCap"></b></div>
+    <button class="lb-close" id="lbClose" aria-label="Close"><svg class="ic"><use href="#i-close"/></svg></button>
+  </div>
+</div>
+
+<script>
+/* ==========================================================================
+   Configuration
+   ========================================================================== */
+// Deployed Google Apps Script Web App URL (Code.gs)
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxzLkkdRGIhC-NBj7zq9A-yEUnVqoECpa5NOAOcvYP4yOOTDYyCSI2gPd9brkH-sDhOBA/exec";
+const WHATSAPP_NUMBER = "919842211111";
+
+/* ==========================================================================
+   Header: scroll state, mobile menu, active link
+   ========================================================================== */
+(function () {
+  const header = document.getElementById("siteHeader");
+  const menuBtn = document.getElementById("menuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+  const menuIcon = document.getElementById("menuIcon");
+
+  const onScroll = () => header.classList.toggle("scrolled", window.scrollY > 12);
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+
+  function setMenu(open) {
+    mobileMenu.classList.toggle("open", open);
+    menuBtn.setAttribute("aria-expanded", String(open));
+    menuBtn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    menuIcon.innerHTML = '<use href="#' + (open ? "i-close" : "i-menu") + '"/>';
+  }
+  menuBtn.addEventListener("click", () => setMenu(!mobileMenu.classList.contains("open")));
+  mobileMenu.querySelectorAll("a").forEach(a => a.addEventListener("click", () => setMenu(false)));
+
+  // Highlight the nav link for the section in view
+  const navLinks = document.querySelectorAll(".nav-a");
+  const sections = [...navLinks].map(a => document.querySelector(a.getAttribute("href"))).filter(Boolean);
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting) {
+          navLinks.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id));
+        }
+      });
+    }, { rootMargin: "-45% 0px -50% 0px" });
+    sections.forEach(s => io.observe(s));
+  }
+})();
+
+/* ==========================================================================
+   Scroll reveal
+   ========================================================================== */
+(function () {
+  const items = document.querySelectorAll(".reveal");
+  if (!("IntersectionObserver" in window)) { items.forEach(i => i.classList.add("in")); return; }
+  const io = new IntersectionObserver((entries, obs) => {
+    entries.forEach(en => {
+      if (en.isIntersecting) { en.target.classList.add("in"); obs.unobserve(en.target); }
+    });
+  }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+  items.forEach((el, i) => {
+    el.style.transitionDelay = (el.closest(".benefit-grid,.trust-grid,.steps,.plot-grid") ? (i % 4) * 90 : 0) + "ms";
+    io.observe(el);
+  });
+})();
+
+/* ==========================================================================
+   Farmland plot filters
+   ========================================================================== */
+(function () {
+  const cards = [...document.querySelectorAll("#plotGrid .plot-card")];
+  const empty = document.getElementById("plotEmpty");
+  const state = { extent: "all", status: "all" };
+
+  function apply() {
+    let visible = 0;
+    cards.forEach(c => {
+      const ok = (state.extent === "all" || c.dataset.extent === state.extent) &&
+                 (state.status === "all" || c.dataset.status === state.status);
+      c.hidden = !ok;
+      if (ok) visible++;
+    });
+    empty.hidden = visible > 0;
+  }
+
+  function bind(groupId, key) {
+    document.querySelectorAll("#" + groupId + " .chip").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("#" + groupId + " .chip").forEach(b => b.setAttribute("aria-pressed", "false"));
+        btn.setAttribute("aria-pressed", "true");
+        state[key] = btn.dataset[key];
+        apply();
+      });
+    });
+  }
+  bind("extentFilters", "extent");
+  bind("statusFilters", "status");
+})();
+
+/* ==========================================================================
+   Masterplan: 24 plots, click to inspect
+   Plot statuses for plots not detailed in the design are placeholders;
+   update the STATUS map to match live inventory.
+   ========================================================================== */
+const PLOT_INFO = {
+  12: { name: "The Coconut Haven", status: "available", desc: "Prime eastern sector with high water yields and fertile soil.", extent: "50 Cents (0.50 Acre)", palms: "38 Matured Palms", water: "Valve Node #03 (Active)", eb: "Yes (Free EB Benefit)", price: "₹34,50,000", note: "Includes registration assistance & 1-year free care." },
+  7:  { name: "Emerald Meadow", status: "available", desc: "Compact boutique parcel, ideal for farm weekend cottage.", extent: "25 Cents", palms: "19 Trees", water: "Piped Drip", eb: "Free EB Ready", price: "₹18,00,000", note: "Includes registration assistance & 1-year free care." },
+  19: { name: "The Grove Sanctuary", status: "available", desc: "Full 1-Acre signature estate with double corner road access.", extent: "1.00 Acre", palms: "72 Trees", water: "Dual Channel", eb: "Dedicated Phase", price: "₹67,00,000", note: "Includes registration assistance & 1-year free care." },
+  23: { name: "Sunrise Vista", status: "reserved", desc: "Elevated contour with uninterrupted views of the morning mist.", extent: "50 Cents (0.50 Acre)", palms: "36 Trees", water: "Borewell Linked", eb: "Free EB Ready", price: "₹35,00,000", note: "Currently reserved. Join the waitlist for updates." }
+};
+const SOLD = [1, 9, 16, 21];
+const RESERVED = [5, 13, 15, 18, 20, 23];
+const EXTENT_LABEL = { 2: "25 Cts", 7: "25 Cents", 12: "50 Cents", 19: "1.00 Acre", 24: "25 Cts" };
+const FEATURED = [7, 12];
+
+(function () {
+  const svg = document.getElementById("plotMap");
+  const NS = "http://www.w3.org/2000/svg";
+  const cellW = 86, cellH = 118, gapX = 6, gapY = 6, x0 = 40, y0 = 60;
+  const statusOf = n => SOLD.includes(n) ? "sold" : RESERVED.includes(n) ? "reserved" : "available";
+  const cls = { sold: "p-sd", reserved: "p-rs", available: "p-av" };
+  let selected = 12;
+
+  // Base layout
+  svg.innerHTML =
+    '<rect x="16" y="16" width="768" height="448" rx="14" fill="#f5f4ed" stroke="#c9c6bb" stroke-width="2"/>' +
+    '<rect x="16" y="16" width="768" height="26" rx="14" fill="#eae8e1"/>' +
+    '<text x="34" y="34" font-size="12" font-weight="700" fill="#735b26" letter-spacing="1.5">TO NH 83</text>' +
+    '<text x="400" y="34" text-anchor="middle" font-size="12" font-weight="700" fill="#002517" letter-spacing="1.5">GRAND GATE</text>' +
+    '<rect x="8" y="180" width="14" height="260" fill="#d8dccf" opacity=".7"/>' +
+    '<text x="770" y="470" text-anchor="end" font-size="12" font-weight="700" fill="#123b2a" letter-spacing="1.2">WATER HUB</text>' +
+    '<circle cx="752" cy="464" r="6" fill="#123b2a"/>' +
+    '<text x="40" y="470" font-size="11" fill="#414844">North-Facing Estate · 23ft Tar Avenues</text>';
+
+  const g = document.createElementNS(NS, "g");
+  svg.appendChild(g);
+
+  for (let n = 1; n <= 24; n++) {
+    const col = (n - 1) % 8, row = Math.floor((n - 1) / 8);
+    const x = x0 + col * (cellW + gapX), y = y0 + row * (cellH + gapY);
+    const st = statusOf(n);
+    const el = document.createElementNS(NS, "g");
+    el.setAttribute("class", "plot " + cls[st] + (n === selected ? " p-sel" : ""));
+    el.setAttribute("data-id", n);
+    el.setAttribute("tabindex", "0");
+    el.setAttribute("role", "button");
+    el.setAttribute("aria-label", "Plot " + n + ", " + st);
+
+    const label = st === "sold" ? "SOLD" : st === "reserved" ? "Reserved" : (EXTENT_LABEL[n] || "Open");
+    el.innerHTML =
+      '<rect x="' + x + '" y="' + y + '" width="' + cellW + '" height="' + cellH + '" rx="6" stroke-width="1.5"/>' +
+      '<text x="' + (x + 10) + '" y="' + (y + 22) + '" font-size="13" font-weight="700" fill="#002517">#' + String(n).padStart(2, "0") + '</text>' +
+      '<text x="' + (x + 10) + '" y="' + (y + cellH - 14) + '" font-size="11" font-weight="600" fill="#414844">' + label + '</text>' +
+      (FEATURED.includes(n) ? '<text x="' + (x + cellW - 10) + '" y="' + (y + 22) + '" text-anchor="end" font-size="13" fill="#735b26">★</text>' : '');
+    g.appendChild(el);
+  }
+
+  function renderInspector(n) {
+    selected = n;
+    g.querySelectorAll(".plot").forEach(p => p.classList.toggle("p-sel", Number(p.dataset.id) === n));
+    const st = statusOf(n);
+    const info = PLOT_INFO[n];
+    const statusEl = document.getElementById("inspStatus");
+    const label = st === "sold" ? "Sold" : st === "reserved" ? "Reserved" : "Available";
+    statusEl.textContent = label;
+    statusEl.className = "insp-status" + (st === "reserved" ? " reserved" : st === "sold" ? " sold" : "");
+    document.getElementById("inspSel").textContent = "Plot #" + String(n).padStart(2, "0") + " selected";
+
+    if (info) {
+      document.getElementById("inspTitle").textContent = info.name;
+      document.getElementById("inspDesc").textContent = info.desc;
+      document.getElementById("inspExtent").textContent = info.extent;
+      document.getElementById("inspPalms").textContent = info.palms;
+      document.getElementById("inspWater").textContent = info.water;
+      document.getElementById("inspEb").textContent = info.eb;
+      document.getElementById("inspPrice").textContent = info.price;
+      document.getElementById("inspNote").textContent = info.note;
+    } else {
+      document.getElementById("inspTitle").textContent = "Plot #" + String(n).padStart(2, "0");
+      document.getElementById("inspDesc").textContent = st === "sold"
+        ? "This plot has been sold. Explore available parcels on the map."
+        : "Full plot details, water connectivity and pricing are shared on enquiry.";
+      ["inspExtent", "inspPalms", "inspWater", "inspEb"].forEach(id => document.getElementById(id).textContent = "On enquiry");
+      document.getElementById("inspPrice").textContent = "On enquiry";
+      document.getElementById("inspNote").textContent = "Speak to our team for current pricing.";
+    }
+
+    const reserve = document.getElementById("inspReserve");
+    reserve.textContent = st === "reserved" ? "Join Waitlist" : "Reserve Plot Site Visit";
+    reserve.innerHTML = (st === "reserved" ? "Join Waitlist" : "Reserve Plot Site Visit") + ' <svg class="ic"><use href="#i-arrow"/></svg>';
+    reserve.dataset.extent = info ? info.extent : "";
+    reserve.dataset.plot = n;
+    document.getElementById("inspWa").href =
+      "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent("Hello, I'm interested in Plot #" + String(n).padStart(2, "0") + " at Sri vetri vinayaga real estate. Please share details.");
+  }
+
+  g.addEventListener("click", e => {
+    const p = e.target.closest(".plot"); if (!p) return;
+    renderInspector(Number(p.dataset.id));
+  });
+  g.addEventListener("keydown", e => {
+    if ((e.key === "Enter" || e.key === " ") && e.target.classList.contains("plot")) {
+      e.preventDefault(); renderInspector(Number(e.target.dataset.id));
+    }
+  });
+
+  // Counts
+  const av = 24 - SOLD.length - RESERVED.length;
+  document.getElementById("cntAv").textContent = av;
+  document.getElementById("cntRs").textContent = RESERVED.length;
+  document.getElementById("cntSd").textContent = SOLD.length;
+  document.getElementById("liveCount").textContent = av;
+
+  // Expose for "View Details" buttons
+  window.__selectPlot = renderInspector;
+  renderInspector(12);
+})();
+
+// "View Details" / "Join Waitlist" on farmland cards
+document.querySelectorAll("[data-open-plot]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const n = Number(btn.dataset.openPlot);
+    window.__selectPlot(n);
+    document.getElementById("masterplan").scrollIntoView({ behavior: "smooth" });
+  });
+});
+
+// Reserve button: pre-select the plot extent in the visit form
+document.getElementById("inspReserve").addEventListener("click", () => {
+  const ext = document.getElementById("inspReserve").dataset.extent;
+  const sel = document.getElementById("plotExtent");
+  if (ext && [...sel.options].some(o => o.value === ext)) sel.value = ext;
+});
+
+/* ==========================================================================
+   Gallery filters and lightbox
+   ========================================================================== */
+(function () {
+  const items = [...document.querySelectorAll(".g-item")];
+  const lb = document.getElementById("lightbox");
+  const lbPh = document.getElementById("lbPh");
+  const lbCap = document.getElementById("lbCap");
+  let lastFocus = null;
+
+  document.querySelectorAll("#galFilters .chip").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("#galFilters .chip").forEach(b => b.setAttribute("aria-pressed", "false"));
+      btn.setAttribute("aria-pressed", "true");
+      const cat = btn.dataset.cat;
+      items.forEach(it => { it.hidden = !(cat === "all" || it.dataset.cat === cat); });
+    });
+  });
+
+  function open(item) {
+    lastFocus = document.activeElement;
+    lbPh.className = "ph " + (item.querySelector(".ph").className.split(" ").find(c => c.startsWith("ph-")) || "");
+    lbCap.textContent = item.dataset.caption;
+    lb.classList.add("open");
+    document.getElementById("lbClose").focus();
+  }
+  function close() { lb.classList.remove("open"); if (lastFocus) lastFocus.focus(); }
+
+  items.forEach(it => {
+    it.addEventListener("click", () => open(it));
+    it.addEventListener("keydown", e => { if (e.key === "Enter") open(it); });
+  });
+  document.getElementById("lbClose").addEventListener("click", close);
+  lb.addEventListener("click", e => { if (e.target === lb) close(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && lb.classList.contains("open")) close(); });
+})();
+
+/* ==========================================================================
+   Site visit form
+   Submits via GET with no-cors, per the deployment rules:
+   - URL = SCRIPT_URL + "?" + URLSearchParams
+   - fetch(url, { method: "GET", mode: "no-cors" })
+   - No JSON body, no Content-Type header, no response parsing
+   ========================================================================== */
+(function () {
+  const form = document.getElementById("visitForm");
+  const btn = document.getElementById("submitBtn");
+  const statusBox = document.getElementById("formStatus");
+  const consentBox = document.getElementById("f-consent");
+  const consentErr = document.querySelector("#f-consentErr .err");
+  const visitDay = document.getElementById("visitDay");
+  let submitting = false;
+
+  // Earliest selectable date = today (local)
+  const today = new Date();
+  const pad = n => String(n).padStart(2, "0");
+  visitDay.min = today.getFullYear() + "-" + pad(today.getMonth() + 1) + "-" + pad(today.getDate());
+
+  function setFieldError(wrapId, msg) {
+    const wrap = document.getElementById(wrapId);
+    if (!wrap) return;
+    wrap.classList.toggle("invalid", !!msg);
+    const err = wrap.querySelector(".err");
+    if (err) { if (msg) err.textContent = msg; }
+  }
+  function clearErrors() {
+    ["f-fullName", "f-whatsapp", "f-plotExtent", "f-visitDay"].forEach(id => setFieldError(id, ""));
+    consentBox.classList.remove("invalid");
+    consentErr.style.display = "none";
+  }
+
+  function validate() {
+    clearErrors();
+    let ok = true;
+    const fullName = form.fullName.value.trim();
+    const whatsapp = form.whatsapp.value.trim();
+    const plot = form.plotExtent.value;
+    const day = form.visitDay.value;
+
+    if (fullName.length < 2) {
+      setFieldError("f-fullName", "Please enter your full name (at least 2 characters).");
+      ok = false;
+    }
+    const digits = whatsapp.replace(/[\s\-()]/g, "");
+    if (!/^\+?\d{10,15}$/.test(digits)) {
+      setFieldError("f-whatsapp", "Enter a valid 10–15 digit WhatsApp / mobile number.");
+      ok = false;
+    }
+    if (!plot) {
+      setFieldError("f-plotExtent", "Please choose a plot extent.");
+      ok = false;
+    }
+    if (day && day < visitDay.min) {
+      setFieldError("f-visitDay", "Please choose today or a future date.");
+      ok = false;
+    }
+    if (!form.consent.checked) {
+      consentBox.classList.add("invalid");
+      consentErr.style.display = "block";
+      ok = false;
+    }
+    if (!ok) {
+      const firstInvalid = form.querySelector(".field.invalid input, .field.invalid select, .consent.invalid input");
+      if (firstInvalid) firstInvalid.focus();
+    }
+    return ok;
+  }
+
+  function showStatus(type, html) {
+    statusBox.className = "form-status show " + type;
+    statusBox.innerHTML = html;
+  }
+
+  function setLoading(on) {
+    btn.disabled = on;
+    btn.innerHTML = on
+      ? '<span class="spinner"></span>Sending your request…'
+      : 'Confirm Site Visit Request <svg class="ic"><use href="#i-arrow"/></svg>';
+  }
+
+  function showSuccess() {
+    // no-cors gives an opaque response, so we do not claim the record was verified
+    showStatus("ok", "<strong>Thank you!</strong> Your site visit request has been submitted. Our team will reach out on WhatsApp or phone to confirm your visit.");
+    form.reset();
+    visitDay.min = today.getFullYear() + "-" + pad(today.getMonth() + 1) + "-" + pad(today.getDate());
+    statusBox.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  function showError() {
+    showStatus("err", "We couldn’t send your request right now. Please try again, or message us directly on WhatsApp at <a href=\"https://wa.me/" + WHATSAPP_NUMBER + "\" target=\"_blank\" rel=\"noopener\" style=\"color:#6e2a20;font-weight:700\">+91 98422 11111</a>.");
+  }
+
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    if (submitting) return; // duplicate-submission guard
+    statusBox.className = "form-status";
+    statusBox.innerHTML = "";
+    if (!validate()) return;
+
+    const params = new URLSearchParams({
+      fullName: form.fullName.value.trim(),
+      whatsapp: form.whatsapp.value.trim(),
+      plotExtent: form.plotExtent.value,
+      visitDay: form.visitDay.value,
+      specialRequirements: form.specialRequirements.value.trim(),
+      consent: "yes"
+    });
+    const url = SCRIPT_URL + "?" + params.toString();
+
+    submitting = true;
+    setLoading(true);
+    showStatus("busy", "Submitting your request…");
+
+    fetch(url, { method: "GET", mode: "no-cors" })
+      .then(() => showSuccess())
+      .catch(() => showError())
+      .finally(() => {
+        submitting = false;
+        setLoading(false);
+      });
+  });
+
+  // Clear a field's error as soon as the user fixes it
+  form.addEventListener("input", e => {
+    const wrap = e.target.closest(".field");
+    if (wrap && wrap.classList.contains("invalid")) wrap.classList.remove("invalid");
+  });
+  form.consent.addEventListener("change", () => {
+    consentBox.classList.remove("invalid");
+    consentErr.style.display = "none";
+  });
+})();
+
+/* ==========================================================================
+   Chat Instantly on WhatsApp (secondary CTA) keeps the default link behaviour.
+   ========================================================================== */
+</script>
+</body>
+</html>
