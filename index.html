@@ -629,6 +629,37 @@ img,iframe,video{max-width:100%}
 @media (max-width:380px){
   .trust-grid{grid-template-columns:1fr}
 }
+   /* ==========================================================================
+   Mobile overflow fix: stop columns from being wider than the phone screen
+   ========================================================================== */
+@media (max-width:900px){
+  /* Grid columns that can shrink instead of growing to fit long text */
+  .about-grid,.own-grid,.loc-grid,.contact-grid{
+    grid-template-columns:minmax(0,1fr);
+  }
+  .visit-form{grid-template-columns:minmax(0,1fr)}
+  .stat-cards{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .step{grid-template-columns:44px minmax(0,1fr)}
+
+  /* Let every section column and card shrink below its content width */
+  .about-grid>*,.own-grid>*,.loc-grid>*,.contact-grid>*,
+  .form-card,.form-card>*,.visit-form>*,
+  .steps,.step>*,.step>div,
+  .stat,.c-item,.c-item>div,
+  .dist-list,.dist-list li,.dist-list li>div,
+  .quote,.concierge,.map-card,
+  .about-body,.about-body p,.own-copy .lead,.loc-copy .lead,.contact-col .lead{
+    min-width:0;
+    max-width:100%;
+  }
+
+  /* Wrap long words and URLs instead of pushing past the edge */
+  .about-body p,.step p,.lead,.c-item strong,.c-item span,
+  .quote blockquote,.dist-list strong,.dist-list span{
+    overflow-wrap:anywhere;
+    word-break:normal;
+  }
+}
 </style>
 </head>
 <body>
